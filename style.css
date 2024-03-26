@@ -1,0 +1,111 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style:initial;
+    margin: 0 auto;
+    width:960px;
+}
+h1,h2,h3{
+    color:green;
+}
+ul{
+    /* list-style-image: url("images/tiny-employee-cup.gif"); */
+}
+a:link , a:visited{
+    text-decoration: none;
+    color:green;
+    font-weight: bold;
+}
+a:hover{
+    color:black;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a:link , nav a:visited{
+   background-color: green;
+   color:white;
+   display: block;
+   width: 160px;
+   text-align: center;
+   padding: 10px 0;
+}
+nav a:hover{
+    background-color:black;
+}
+aside{
+    width:280px;
+    float:right;
+    background-color:lightgreen;
+    text-align: center;
+    font-weight: bold;
+    /* padding: 20px; */
+    margin-left: 20px; 
+}
+.photo-left{
+    float: left;
+    margin-right: 20px;
+}
+.photo-right{
+    float:right;
+    margin-left: 20px;
+}
+
+header{
+    background-image: url("images/home-banner4.png");
+    /* background-repeat: no-repeat; */
+    height: 100px;
+    margin-bottom: 70px;
+}
+header h1{
+    color:rgba(256,256,256,256);
+    margin-left: 30px;
+    margin-top:30px;
+    /* font-size:50px */
+}
+footer{
+    margin:40px 0;
+}
+footer nav a:link , footer nav a:visited{
+    color:gray;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: white;
+}
+footer nav a:hover{
+    color:black;
+}
+td,th, tr{
+    border:1px solid black;
+    width : 20%;
+    text-align: center;
+    padding:5px;
+}
+table{
+    border-collapse: collapse;
+}
+caption{
+    font-size: 18px;
+}
+div{
+    padding-bottom: 10px;
+}
+nav{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.Employee-right{
+    float:right;
+}
+
+table tr thead th {
+    font-weight: bolder;
+}

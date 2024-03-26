@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.port": 4202,
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2346b302-8476-43c4-b96a-4a60b3b35e27/resourceGroups/HTMLLearners_group/providers/Microsoft.Web/sites/HTMLLearners",
+    "appService.deploySubpath": "."
+}
